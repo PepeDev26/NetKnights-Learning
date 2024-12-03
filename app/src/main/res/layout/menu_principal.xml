@@ -36,19 +36,19 @@
         />
 
     <!-- Auto layout, variables, and unit scale are not yet supported -->
+
+    <!-- Auto layout, variables, and unit scale are not yet supported -->
     <ImageView
         android:id="@+id/corazao"
         android:layout_width="35dp"
         android:layout_height="35dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="44dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="24dp"
-        android:src="@drawable/corazao"
+        android:layout_marginLeft="116dp"
+        android:layout_marginTop="26dp"
         android:elevation="10dp"
-        />
+        android:src="@drawable/corazao" />
 
-    <!-- Auto layout, variables, and unit scale are not yet supported -->
     <TextView
         android:id="@+id/unidad_alph"
         android:layout_width="189dp"
@@ -206,7 +206,6 @@
     <RelativeLayout
         android:layout_width="51dp"
         android:layout_height="51dp"
-        android:layout_height="51dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="102dp"
@@ -217,7 +216,6 @@
 
     <RelativeLayout
         android:layout_width="51dp"
-        android:layout_height="51dp"
         android:layout_height="51dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
@@ -230,7 +228,6 @@
     <RelativeLayout
         android:layout_width="51dp"
         android:layout_height="51dp"
-        android:layout_height="51dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="183dp"
@@ -238,6 +235,30 @@
         android:background="@drawable/espada"
         android:elevation="15dp"
         />
+
+    <RelativeLayout
+        android:layout_width="51dp"
+        android:layout_height="51dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/hamburgesa"
+        android:elevation="10dp"
+        />
+
+    <TextView
+        android:id="@+id/vidas"
+        android:layout_width="38dp"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="157dp"
+        android:layout_marginTop="28dp"
+        android:elevation="10dp"
+        android:gravity="top"
+        android:text="@string/vidas"
+        android:textAppearance="@style/vidas" />
 
 
 </RelativeLayout>
