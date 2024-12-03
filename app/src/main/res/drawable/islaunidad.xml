@@ -1,0 +1,19 @@
+ <!-- drawable/islaunidad.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="324dp"
+android:height="112dp"
+android:viewportWidth="324"
+android:viewportHeight="112"
+    >
+<group>
+    <clip-path
+        android:pathData="M30 0H294C310.569 0 324 13.4315 324 30V82C324 98.5685 310.569 112 294 112H30C13.4315 112 0 98.5685 0 82V30C0 13.4315 13.4315 0 30 0Z"
+        />
+    <path
+        android:pathData="M0 0V112H324V0"
+        android:fillColor="#48A0F2"
+        />
+</group>
+</vector>

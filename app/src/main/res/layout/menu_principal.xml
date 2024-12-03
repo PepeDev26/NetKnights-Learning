@@ -1,12 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Auto layout, variables, and unit scale are not yet supported -->
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/main_menu"
     android:layout_width="412dp"
     android:layout_height="917dp"
     android:clipToOutline="true"
-    android:background="#2A3151"
+    android:background="#2A3151">
 
-    />
+    <!-- Auto layout, variables, and unit scale are not yet supported -->
+    <View
+        android:id="@+id/pesta_asup"
+        android:layout_width="412dp"
+        android:layout_height="87dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/pesta_asup"
+        android:elevation="7dp"
+        />
+
+
+    <View
+        android:id="@+id/islaunidad"
+        android:layout_width="324dp"
+        android:layout_height="112dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="44dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="197dp"
+        android:background="@drawable/islaunidad"
+        android:elevation="4dp"
+        />
+
+    <!-- Auto layout, variables, and unit scale are not yet supported -->
+    <View
+        android:id="@+id/corazao"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="44dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/corazao"
+        android:elevation="4dp"
+        />
+</RelativeLayout>
 
