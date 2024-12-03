@@ -16,6 +16,10 @@
         android:layout_alignParentTop="true"
         android:background="@drawable/pesta_asup"
         android:elevation="7dp"
+        android:shadowColor="#000000"
+        android:shadowDx="0"
+        android:shadowDy="30"
+        android:shadowRadius="4"
         />
 
 
@@ -32,7 +36,7 @@
         />
 
     <!-- Auto layout, variables, and unit scale are not yet supported -->
-    <View
+    <ImageView
         android:id="@+id/corazao"
         android:layout_width="35dp"
         android:layout_height="35dp"
@@ -40,8 +44,70 @@
         android:layout_marginLeft="44dp"
         android:layout_alignParentTop="true"
         android:layout_marginTop="24dp"
-        android:background="@drawable/corazao"
-        android:elevation="4dp"
+        android:src="@drawable/corazao"
+        android:elevation="10dp"
         />
+
+    <!-- Auto layout, variables, and unit scale are not yet supported -->
+    <TextView
+        android:id="@+id/unidad_alph"
+        android:layout_width="189dp"
+        android:layout_height="29dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="218dp"
+        android:elevation="10dp"
+        android:gravity="top"
+        android:text="@string/unidad_alph"
+        android:textAppearance="@style/unidad_alph" />
+    <!--
+    Font family: Montserrat
+    Line height: 29sp
+    -->
+
+    <!-- Auto layout, variables, and unit scale are not yet supported -->
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="76dp"
+        android:layout_marginTop="347dp"
+        android:background="@drawable/bola"
+        android:elevation="4dp" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="239dp"
+        android:layout_marginTop="348dp"
+        android:background="@drawable/bola"
+        android:elevation="4dp" />
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="76dp"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/bola"
+        android:elevation="4dp" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="239dp"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/bola"
+        android:elevation="4dp" />
 </RelativeLayout>
 

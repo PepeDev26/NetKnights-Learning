@@ -1,8 +1,11 @@
 package com.pepedev26.netknightslearning
 
 import android.os.Bundle
+import android.view.LayoutInflater
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.activity.enableEdgeToEdge
+import androidx.compose.ui.viewinterop.AndroidView
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
@@ -20,28 +23,14 @@ class MainActivity : ComponentActivity() {
         setContent {
             NetKnightsLearningTheme {
                 Scaffold( modifier = Modifier.fillMaxSize() ) { innerPadding ->
-                    Greeting(
-                        name = "Android",
+                    AndroidView(
+                        factory = { context ->
+                            LayoutInflater.from(context).inflate(R.layout.menu_principal, null)
+                        },
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
             }
         }
-    }
-}
-
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
-
-@Preview(showBackground = true)
-@Composable
-fun GreetingPreview() {
-    NetKnightsLearningTheme {
-        Greeting("Android")
     }
 }
