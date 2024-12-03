@@ -8,20 +8,70 @@
     android:background="#2A3151">
 
     <!-- Auto layout, variables, and unit scale are not yet supported -->
+
+
     <View
         android:id="@+id/pesta_asup"
         android:layout_width="412dp"
         android:layout_height="87dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
+        android:layout_marginLeft="-3dp"
+        android:layout_marginTop="-7dp"
         android:background="@drawable/pesta_asup"
         android:elevation="7dp"
         android:shadowColor="#000000"
         android:shadowDx="0"
         android:shadowDy="30"
-        android:shadowRadius="4"
-        />
+        android:shadowRadius="4" />
 
+    <TextView
+        android:id="@+id/puntosescudo"
+        android:layout_width="38dp"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="235dp"
+        android:layout_marginTop="29dp"
+        android:elevation="10dp"
+        android:gravity="top"
+        android:text="@string/puntoescudo"
+        android:textAppearance="@style/puntoescudo" />
+
+    <TextView
+        android:id="@+id/vidas4"
+        android:layout_width="38dp"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="322dp"
+        android:layout_marginTop="30dp"
+        android:elevation="10dp"
+        android:gravity="top"
+        android:text="@string/racha"
+        android:textAppearance="@style/racha" />
+
+    <ImageView
+        android:id="@+id/corazao4"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="281dp"
+        android:layout_marginTop="28dp"
+        android:elevation="10dp"
+        android:src="@drawable/rachaicon" />
+
+    <ImageView
+        android:id="@+id/escudo"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="194dp"
+        android:layout_marginTop="27dp"
+        android:elevation="10dp"
+        android:src="@drawable/escudopunto" />
 
     <View
         android:id="@+id/islaunidad"
@@ -38,14 +88,15 @@
     <!-- Auto layout, variables, and unit scale are not yet supported -->
 
     <!-- Auto layout, variables, and unit scale are not yet supported -->
+
     <ImageView
         android:id="@+id/corazao"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="116dp"
-        android:layout_marginTop="26dp"
+        android:layout_marginTop="33dp"
         android:elevation="10dp"
         android:src="@drawable/corazao" />
 
@@ -260,6 +311,21 @@
         android:text="@string/vidas"
         android:textAppearance="@style/vidas" />
 
+
+    <TextView
+        android:id="@+id/version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="834dp"
+        android:elevation="10dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:gravity="top"
+        android:text="NetKnights Learning                                           Alpha.1.0"
+        android:textColor="#4C5788"
+        android:textSize="15dp" />
 
 </RelativeLayout>
 

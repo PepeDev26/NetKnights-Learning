@@ -5,4 +5,8 @@
 
     <string name="tema_demo"> Tema DEMO </string>
     <string name="vidas"> 5 </string>
+    <string name="puntoescudo"> 10 </string>
+    <string name="racha"> 0 </string>
+    <!-- strings.xml -->
+    <string name="contrase_a1">contrase\u00c3\u00b1a123</string>
 </resources>

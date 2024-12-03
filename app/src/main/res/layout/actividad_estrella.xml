@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Auto layout, variables, and unit scale are not yet supported -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ejemplo_de_"
+    android:layout_width="412dp"
+    android:layout_height="917dp"
+    android:clipToOutline="true"
+    android:background="#2A3151"
+    android:elevation="4dp" >
+    <!-- Auto layout, variables, and unit scale are not yet supported -->
+
+    <Button
+        android:id="@+id/rectangle_3"
+        android:layout_width="342dp"
+        android:layout_height="64dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="661dp"
+        android:background="@drawable/boton_rectangular"
+        android:elevation="4dp" />
+
+    <TextView
+        android:id="@+id/contrase_a3"
+        android:layout_width="275dp"
+        android:layout_height="37dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="67dp"
+        android:layout_marginTop="681dp"
+        android:elevation="15dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/contrase_a1"
+        android:textAppearance="@style/contrase_a1" />
+
+    <Button
+        android:id="@+id/rectangle_2"
+        android:layout_width="342dp"
+        android:layout_height="64dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="661dp"
+        android:background="@drawable/boton_rectangular"
+        android:elevation="4dp" />
+
+    <TextView
+        android:id="@+id/contrase_a2"
+        android:layout_width="275dp"
+        android:layout_height="37dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="67dp"
+        android:layout_marginTop="681dp"
+        android:elevation="15dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/contrase_a1"
+        android:textAppearance="@style/contrase_a1" />
+
+    <Button
+        android:id="@+id/rectangle_"
+        android:layout_width="342dp"
+        android:layout_height="64dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="587dp"
+        android:background="@drawable/boton_rectangular"
+        android:elevation="4dp" />
+
+    <TextView
+        android:id="@+id/contrase_a"
+        android:layout_width="275dp"
+        android:layout_height="37dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="67dp"
+        android:layout_marginTop="607dp"
+        android:elevation="15dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/contrase_a1"
+        android:textAppearance="@style/contrase_a1" />
+
+    <View
+    android:id="@+id/vector"
+    android:layout_width="294dp"
+    android:layout_height="150dp"
+    android:layout_alignParentLeft="true"
+    android:layout_marginLeft="112dp"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="155dp"
+    android:background="@drawable/bocadillopregunta"
+    android:elevation="4dp"
+        />
+    <!-- Auto layout, variables, and unit scale are not yet supported -->
+    <View
+        android:id="@+id/heart_icon_"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="330dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/corazao"
+        />
+
+    <TextView
+        android:id="@+id/indicadorVidas"
+        android:layout_width="38dp"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="374dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="23dp"
+        android:text="@string/vidas"
+        android:textAppearance="@style/vidas"
+        android:gravity="top"
+        />
+
+    <!-- Auto layout, variables, and unit scale are not yet supported -->
+    <Button
+        android:id="@+id/rectangle_6"
+        android:layout_width="342dp"
+        android:layout_height="64dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="508dp"
+        android:background="@drawable/boton_rectangular"
+        android:elevation="4dp" />
+
+    <!-- Auto layout, variables, and unit scale are not yet supported -->
+    <TextView
+        android:id="@+id/contrase_a1"
+        android:layout_width="275dp"
+        android:layout_height="37dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="68dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="528dp"
+        android:text="@string/contrase_a1"
+        android:textAppearance="@style/contrase_a1"
+        android:gravity="center_horizontal|top"
+        android:elevation="15dp"
+        />
+
+
+</RelativeLayout>
