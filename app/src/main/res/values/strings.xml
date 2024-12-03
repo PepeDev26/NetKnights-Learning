@@ -2,4 +2,6 @@
     <string name="app_name">NetKnights Learning</string>
 
     <string name="unidad_alph">Unidad Alpha</string>
+
+    <string name="tema_demo"> Tema DEMO </string>
 </resources>

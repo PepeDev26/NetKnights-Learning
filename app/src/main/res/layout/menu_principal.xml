@@ -52,7 +52,7 @@
     <TextView
         android:id="@+id/unidad_alph"
         android:layout_width="189dp"
-        android:layout_height="29dp"
+        android:layout_height="35dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="72dp"
@@ -68,17 +68,8 @@
 
     <!-- Auto layout, variables, and unit scale are not yet supported -->
 
-    <View
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="76dp"
-        android:layout_marginTop="347dp"
-        android:background="@drawable/bola"
-        android:elevation="4dp" />
-
-    <View
+    <Button
+        android:id="@+id/button1"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_alignParentLeft="true"
@@ -86,9 +77,14 @@
         android:layout_marginLeft="239dp"
         android:layout_marginTop="348dp"
         android:background="@drawable/bola"
-        android:elevation="4dp" />
+        android:elevation="4dp"
+        android:shadowColor="#000000"
+        android:shadowDx="0"
+        android:shadowDy="30"
+        android:shadowRadius="4" />
 
-    <View
+    <Button
+        android:id="@+id/button2"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_alignParentLeft="true"
@@ -96,9 +92,15 @@
         android:layout_marginLeft="76dp"
         android:layout_marginTop="500dp"
         android:background="@drawable/bola"
-        android:elevation="4dp" />
+        android:elevation="4dp"
+        android:shadowColor="#000000"
+        android:shadowDx="0"
+        android:shadowDy="30"
+        android:shadowRadius="4"
+    />
 
-    <View
+    <Button
+        android:id="@+id/button3"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_alignParentLeft="true"
@@ -106,6 +108,137 @@
         android:layout_marginLeft="239dp"
         android:layout_marginTop="500dp"
         android:background="@drawable/bola"
-        android:elevation="4dp" />
+        android:elevation="4dp"
+        android:shadowColor="#000000"
+        android:shadowDx="0"
+        android:shadowDy="30"
+        android:shadowRadius="4" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="158dp"
+        android:layout_marginTop="627dp"
+        android:background="@drawable/bola"
+        android:elevation="4dp"
+        android:shadowColor="#000000"
+        android:shadowDx="0"
+        android:shadowDy="30"
+        android:shadowRadius="4" />
+
+    <TextView
+        android:id="@+id/tema_demo"
+        android:layout_width="177dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="253dp"
+        android:elevation="10dp"
+        android:gravity="top"
+        android:text="@string/tema_demo"
+        android:textAppearance="@style/tema_demo"
+        android:shadowColor="#000000"
+        android:shadowDx="0"
+        android:shadowDy="30"
+        />
+    <!-- Auto layout, variables, and unit scale are not yet supported -->
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/baseline_shield_24"
+        android:layout_width="77dp"
+        android:layout_height="77dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="272dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="215dp"
+        android:background="@drawable/baseline_shield_24"
+        android:elevation="10dp"
+
+        />
+
+    <!-- Auto layout, variables, and unit scale are not yet supported -->
+
+    <RelativeLayout
+        android:id="@+id/star_fill"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="368dp"
+        android:background="@drawable/baseline_star_24"
+        android:elevation="15dp"
+
+        />
+
+    <Button
+        android:id="@+id/button0"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="74dp"
+        android:layout_marginTop="347dp"
+        android:background="@drawable/bola"
+        android:elevation="4dp"
+        android:shadowColor="#000000"
+        android:shadowDx="0"
+        android:shadowDy="30"
+        android:shadowRadius="4" />
+
+    <RelativeLayout
+        android:id="@+id/book_open_d"
+        android:layout_width="51dp"
+        android:layout_height="51dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="264dp"
+        android:layout_marginTop="371dp"
+        android:background="@drawable/libro"
+        android:elevation="15dp"
+
+        />
+
+    <RelativeLayout
+        android:layout_width="51dp"
+        android:layout_height="51dp"
+        android:layout_height="51dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="102dp"
+        android:layout_marginTop="528dp"
+        android:background="@drawable/libro"
+        android:elevation="15dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="51dp"
+        android:layout_height="51dp"
+        android:layout_height="51dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="264dp"
+        android:layout_marginTop="528dp"
+        android:background="@drawable/pesas"
+        android:elevation="15dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="51dp"
+        android:layout_height="51dp"
+        android:layout_height="51dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="183dp"
+        android:layout_marginTop="655dp"
+        android:background="@drawable/espada"
+        android:elevation="15dp"
+        />
+
+
 </RelativeLayout>
 
