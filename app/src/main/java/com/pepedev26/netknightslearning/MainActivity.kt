@@ -1,5 +1,6 @@
 package com.pepedev26.netknightslearning
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.widget.Button
@@ -24,11 +25,9 @@ class MainActivity : ComponentActivity() {
                     AndroidView(
                         factory = { context ->
                             LayoutInflater.from(context).inflate(R.layout.menu_principal, null).apply {
-                                findViewById<Button>(R.id.button0).setOnClickListener {
-                                    Toast.makeText(context, "Botón 0 presionado", Toast.LENGTH_SHORT).show()
-                                }
                                 findViewById<Button>(R.id.button1).setOnClickListener {
-                                    Toast.makeText(context, "Botón 1 presionado", Toast.LENGTH_SHORT).show()
+                                    val intent = Intent(context, ActividadEstrella::class.java)
+                                    context.startActivity(intent)
                                 }
                                 findViewById<Button>(R.id.button2).setOnClickListener {
                                     Toast.makeText(context, "Botón 2 presionado", Toast.LENGTH_SHORT).show()

@@ -9,4 +9,5 @@
     <string name="racha"> 0 </string>
     <!-- strings.xml -->
     <string name="contrase_a1">contrase\u00c3\u00b1a123</string>
+    <string name="title_activity_actividad_estrella">ActividadEstrella</string>
 </resources>

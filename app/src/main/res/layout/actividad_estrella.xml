@@ -21,21 +21,9 @@
         android:background="@drawable/boton_rectangular"
         android:elevation="4dp" />
 
-    <TextView
-        android:id="@+id/contrase_a3"
-        android:layout_width="275dp"
-        android:layout_height="37dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="67dp"
-        android:layout_marginTop="681dp"
-        android:elevation="15dp"
-        android:gravity="center_horizontal|top"
-        android:text="@string/contrase_a1"
-        android:textAppearance="@style/contrase_a1" />
 
     <Button
-        android:id="@+id/rectangle_2"
+        android:id="@+id/optionButton3"
         android:layout_width="342dp"
         android:layout_height="64dp"
         android:layout_alignParentLeft="true"
@@ -43,23 +31,26 @@
         android:layout_marginLeft="34dp"
         android:layout_marginTop="661dp"
         android:background="@drawable/boton_rectangular"
-        android:elevation="4dp" />
-
-    <TextView
-        android:id="@+id/contrase_a2"
-        android:layout_width="275dp"
-        android:layout_height="37dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="67dp"
-        android:layout_marginTop="681dp"
-        android:elevation="15dp"
-        android:gravity="center_horizontal|top"
-        android:text="@string/contrase_a1"
-        android:textAppearance="@style/contrase_a1" />
+        android:elevation="4dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:textColor="#ffffff"/>
+    />
 
     <Button
-        android:id="@+id/rectangle_"
+        android:id="@+id/optionButton4"
+        android:layout_width="342dp"
+        android:layout_height="64dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="737dp"
+        android:background="@drawable/boton_rectangular"
+        android:elevation="4dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/optionButton2"
         android:layout_width="342dp"
         android:layout_height="64dp"
         android:layout_alignParentLeft="true"
@@ -67,20 +58,9 @@
         android:layout_marginLeft="34dp"
         android:layout_marginTop="587dp"
         android:background="@drawable/boton_rectangular"
-        android:elevation="4dp" />
-
-    <TextView
-        android:id="@+id/contrase_a"
-        android:layout_width="275dp"
-        android:layout_height="37dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="67dp"
-        android:layout_marginTop="607dp"
-        android:elevation="15dp"
-        android:gravity="center_horizontal|top"
-        android:text="@string/contrase_a1"
-        android:textAppearance="@style/contrase_a1" />
+        android:elevation="4dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:textColor="#ffffff"/>
 
     <View
     android:id="@+id/vector"
@@ -120,7 +100,7 @@
 
     <!-- Auto layout, variables, and unit scale are not yet supported -->
     <Button
-        android:id="@+id/rectangle_6"
+        android:id="@+id/optionButton1"
         android:layout_width="342dp"
         android:layout_height="64dp"
         android:layout_alignParentLeft="true"
@@ -128,22 +108,24 @@
         android:layout_marginLeft="35dp"
         android:layout_marginTop="508dp"
         android:background="@drawable/boton_rectangular"
-        android:elevation="4dp" />
+        android:elevation="4dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:textColor="#ffffff"/>
 
     <!-- Auto layout, variables, and unit scale are not yet supported -->
+
     <TextView
-        android:id="@+id/contrase_a1"
-        android:layout_width="275dp"
-        android:layout_height="37dp"
+        android:id="@+id/questionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="68dp"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="528dp"
-        android:text="@string/contrase_a1"
-        android:textAppearance="@style/contrase_a1"
-        android:gravity="center_horizontal|top"
+        android:layout_marginLeft="134dp"
+        android:layout_marginTop="181dp"
+        android:text="Texto Pregunta"
         android:elevation="15dp"
-        />
+        android:fontFamily="@font/montserrat_semibold"
+        android:textColor="#FFFFFF" />
 
 
 </RelativeLayout>

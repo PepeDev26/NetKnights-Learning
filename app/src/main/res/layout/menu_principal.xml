@@ -39,7 +39,7 @@
         android:textAppearance="@style/puntoescudo" />
 
     <TextView
-        android:id="@+id/vidas4"
+        android:id="@+id/rachas"
         android:layout_width="38dp"
         android:layout_height="32dp"
         android:layout_alignParentLeft="true"
@@ -120,7 +120,7 @@
     <!-- Auto layout, variables, and unit scale are not yet supported -->
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/button2"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_alignParentLeft="true"
@@ -135,20 +135,19 @@
         android:shadowRadius="4" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/button1"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="76dp"
-        android:layout_marginTop="500dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="352dp"
         android:background="@drawable/bola"
         android:elevation="4dp"
         android:shadowColor="#000000"
         android:shadowDx="0"
         android:shadowDy="30"
-        android:shadowRadius="4"
-    />
+        android:shadowRadius="4" />
 
     <Button
         android:id="@+id/button3"
@@ -171,14 +170,24 @@
         android:layout_height="100dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="158dp"
-        android:layout_marginTop="627dp"
+        android:layout_marginLeft="78dp"
+        android:layout_marginTop="507dp"
         android:background="@drawable/bola"
         android:elevation="4dp"
         android:shadowColor="#000000"
         android:shadowDx="0"
         android:shadowDy="30"
         android:shadowRadius="4" />
+
+    <RelativeLayout
+        android:layout_width="51dp"
+        android:layout_height="51dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="103dp"
+        android:layout_marginTop="535dp"
+        android:background="@drawable/espada"
+        android:elevation="15dp" />
 
     <TextView
         android:id="@+id/tema_demo"
@@ -214,34 +223,6 @@
     <!-- Auto layout, variables, and unit scale are not yet supported -->
 
     <RelativeLayout
-        android:id="@+id/star_fill"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="95dp"
-        android:layout_marginTop="368dp"
-        android:background="@drawable/baseline_star_24"
-        android:elevation="15dp"
-
-        />
-
-    <Button
-        android:id="@+id/button0"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="74dp"
-        android:layout_marginTop="347dp"
-        android:background="@drawable/bola"
-        android:elevation="4dp"
-        android:shadowColor="#000000"
-        android:shadowDx="0"
-        android:shadowDy="30"
-        android:shadowRadius="4" />
-
-    <RelativeLayout
         android:id="@+id/book_open_d"
         android:layout_width="51dp"
         android:layout_height="51dp"
@@ -260,10 +241,9 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="102dp"
-        android:layout_marginTop="528dp"
-        android:background="@drawable/libro"
-        android:elevation="15dp"
-        />
+        android:layout_marginTop="375dp"
+        android:background="@drawable/baseline_star_24"
+        android:elevation="15dp" />
 
     <RelativeLayout
         android:layout_width="51dp"
@@ -273,17 +253,6 @@
         android:layout_marginLeft="264dp"
         android:layout_marginTop="528dp"
         android:background="@drawable/pesas"
-        android:elevation="15dp"
-        />
-
-    <RelativeLayout
-        android:layout_width="51dp"
-        android:layout_height="51dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="183dp"
-        android:layout_marginTop="655dp"
-        android:background="@drawable/espada"
         android:elevation="15dp"
         />
 
