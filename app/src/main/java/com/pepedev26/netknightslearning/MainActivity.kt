@@ -1,9 +1,11 @@
 package com.pepedev26.netknightslearning
 
+import LivesObserver
 import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.widget.Button
+import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -38,6 +40,9 @@ class MainActivity : ComponentActivity() {
                                 findViewById<Button>(R.id.button4).setOnClickListener {
                                     Toast.makeText(context, "Botón 4 presionado", Toast.LENGTH_SHORT).show()
                                 }
+                                val indicadorVidas = findViewById<TextView>(R.id.indicadorVidas)
+                                indicadorVidas.text = LivesManager.lives.toString()
+                                lifecycle.addObserver(LivesObserver(indicadorVidas))
                             }
                         },
                         modifier = Modifier.padding(innerPadding)

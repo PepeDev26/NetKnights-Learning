@@ -268,7 +268,7 @@
         />
 
     <TextView
-        android:id="@+id/vidas"
+        android:id="@+id/indicadorVidas"
         android:layout_width="38dp"
         android:layout_height="32dp"
         android:layout_alignParentLeft="true"
