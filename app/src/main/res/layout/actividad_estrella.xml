@@ -32,7 +32,7 @@
         android:layout_marginTop="661dp"
         android:background="@drawable/boton_rectangular"
         android:elevation="4dp"
-        android:fontFamily="@font/montserrat_semibold"
+        android:fontFamily="@font/blogger_medium"
         android:textColor="#ffffff"/>
     />
 
@@ -46,7 +46,7 @@
         android:layout_marginTop="737dp"
         android:background="@drawable/boton_rectangular"
         android:elevation="4dp"
-        android:fontFamily="@font/montserrat_semibold"
+        android:fontFamily="@font/blogger_medium"
         android:textColor="#ffffff"/>
 
     <Button
@@ -55,12 +55,12 @@
         android:layout_height="64dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="34dp"
+        android:layout_marginLeft="33dp"
         android:layout_marginTop="587dp"
         android:background="@drawable/boton_rectangular"
         android:elevation="4dp"
-        android:fontFamily="@font/montserrat_semibold"
-        android:textColor="#ffffff"/>
+        android:fontFamily="@font/blogger_medium"
+        android:textColor="#ffffff" />
 
     <View
     android:id="@+id/vector"
@@ -71,8 +71,11 @@
     android:layout_alignParentTop="true"
     android:layout_marginTop="155dp"
     android:background="@drawable/bocadillopregunta"
-    android:elevation="4dp"
-        />
+        android:elevation="15dp"
+        android:shadowColor="#000000"
+        android:shadowDx="0"
+        android:shadowDy="100"
+        android:shadowRadius="10"/>
     <!-- Auto layout, variables, and unit scale are not yet supported -->
     <View
         android:id="@+id/heart_icon_"
@@ -109,23 +112,69 @@
         android:layout_marginTop="508dp"
         android:background="@drawable/boton_rectangular"
         android:elevation="4dp"
-        android:fontFamily="@font/montserrat_semibold"
+        android:fontFamily="@font/blogger_medium"
         android:textColor="#ffffff"/>
 
     <!-- Auto layout, variables, and unit scale are not yet supported -->
 
     <TextView
         android:id="@+id/questionTextView"
+        android:layout_width="250dp"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="136dp"
+        android:layout_marginTop="174dp"
+        android:elevation="15dp"
+        android:fontFamily="@font/blogger_medium"
+        android:text="Texto Pregunta"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="71dp"
+        android:layout_marginTop="22dp"
+        android:elevation="10dp"
+        android:max="100"
+        android:progressTint="#E5B000"/>
+
+    <TextView
+        android:id="@+id/editTextText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="134dp"
-        android:layout_marginTop="181dp"
-        android:text="Texto Pregunta"
-        android:elevation="15dp"
-        android:fontFamily="@font/montserrat_semibold"
-        android:textColor="#FFFFFF" />
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="93dp"
+        android:fontFamily="@font/blogger_bold"
+        android:text="Selecciona la opción correcta"
+        android:textColor="#FFFFFF"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/atras"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/atras"/>
+
+    <ImageView
+        android:layout_width="349dp"
+        android:layout_height="232dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="-45dp"
+        android:layout_marginTop="260dp"
+        android:background="@drawable/sirsudoalpha" />
 
 
 </RelativeLayout>
