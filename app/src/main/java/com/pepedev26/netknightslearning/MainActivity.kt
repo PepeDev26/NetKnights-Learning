@@ -1,6 +1,7 @@
 package com.pepedev26.netknightslearning
 
 import LivesObserver
+import PointsObserver
 import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -43,6 +44,7 @@ class MainActivity : ComponentActivity() {
                                 val indicadorVidas = findViewById<TextView>(R.id.indicadorVidas)
                                 indicadorVidas.text = LivesManager.lives.toString()
                                 lifecycle.addObserver(LivesObserver(indicadorVidas))
+                                lifecycle.addObserver(PointsObserver(findViewById(R.id.puntosescudo)))
                             }
                         },
                         modifier = Modifier.padding(innerPadding)

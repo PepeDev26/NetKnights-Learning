@@ -13,8 +13,11 @@
         android:theme="@style/Theme.NetKnightsLearning"
         tools:targetApi="31">
         <activity
-            android:name=".ValoraLeccion"
-            android:exported="false" />
+            android:name=".FinNivel"
+            android:exported="false"
+            android:label="@string/title_activity_fin_nivel"
+            android:theme="@style/Theme.NetKnightsLearning"
+            />
         <activity
             android:name=".ActividadEstrella"
             android:exported="false"

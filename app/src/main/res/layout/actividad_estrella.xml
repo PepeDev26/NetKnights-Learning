@@ -88,6 +88,16 @@
         android:background="@drawable/corazao"
         />
 
+    <View
+        android:id="@+id/escudo"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="324dp"
+        android:layout_marginTop="54dp"
+        android:background="@drawable/escudopunto" />
+
     <TextView
         android:id="@+id/indicadorVidas"
         android:layout_width="38dp"
@@ -102,6 +112,19 @@
         />
 
     <!-- Auto layout, variables, and unit scale are not yet supported -->
+
+    <TextView
+        android:id="@+id/indicadorPuntos"
+        android:layout_width="38dp"
+        android:layout_height="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="372dp"
+        android:layout_marginTop="58dp"
+        android:gravity="top"
+        android:text="0"
+        android:textAppearance="@style/puntoescudo" />
+
     <Button
         android:id="@+id/optionButton1"
         android:layout_width="342dp"

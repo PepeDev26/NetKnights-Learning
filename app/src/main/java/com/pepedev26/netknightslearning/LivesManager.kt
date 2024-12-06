@@ -2,7 +2,7 @@ package com.pepedev26.netknightslearning
 
 
 object LivesManager {
-    var lives: Int = 3
+    var lives: Int = 4
 
     fun decrementLives() {
         if (lives > 0) {

@@ -1,6 +1,7 @@
 package com.pepedev26.netknightslearning
 
 import android.app.AlertDialog
+import android.content.Intent
 import android.media.MediaPlayer
 import android.os.Bundle
 import android.widget.Button
@@ -81,12 +82,15 @@ class ActividadEstrella : ComponentActivity() {
         findViewById<Button>(R.id.optionButton4).text = options[3]
         updateProgressBar()
         updateLivesIndicator()
+        updatePuntos()
     }
 
     private fun checkAnswer(selectedOptionIndex: Int) {
         val (_, options, correctOptionIndex) = questionsAndOptions[currentQuestionIndex]
         if (selectedOptionIndex == correctOptionIndex) {
             correctSound.start()
+            GameManager.respuestaCorrecta()
+            updatePuntos()
             AlertDialog.Builder(this)
                 .setTitle("Respuesta")
                 .setMessage("¡Correcto!")
@@ -115,11 +119,9 @@ class ActividadEstrella : ComponentActivity() {
         if (currentQuestionIndex < questionsAndOptions.size) {
             showQuestion()
         } else {
-            AlertDialog.Builder(this)
-                .setTitle("Fin del juego")
-                .setMessage("¡Has completado todas las preguntas!")
-                .setPositiveButton("OK", null)
-                .show()
+            val intent = Intent(this, FinNivel::class.java)
+            startActivity(intent)
+            finish()
         }
     }
 
@@ -130,6 +132,10 @@ class ActividadEstrella : ComponentActivity() {
     private fun updateProgressBar() {
         val progress = ((currentQuestionIndex + 1) / questionsAndOptions.size.toFloat()) * 100
         progressBar.progress = progress.toInt()
+    }
+
+    private fun updatePuntos() {
+        findViewById<TextView>(R.id.indicadorPuntos).text = GameManager.puntos.toString()
     }
 
     override fun onDestroy() {
