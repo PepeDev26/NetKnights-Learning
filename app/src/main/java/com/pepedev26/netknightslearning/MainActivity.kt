@@ -2,10 +2,13 @@ package com.pepedev26.netknightslearning
 
 import LivesObserver
 import PointsObserver
+import android.app.Activity
+import android.app.AlertDialog
 import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.widget.Button
+import android.widget.ImageButton
 import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.ComponentActivity
@@ -19,6 +22,8 @@ import androidx.compose.ui.Modifier
 import com.pepedev26.netknightslearning.ui.theme.NetKnightsLearningTheme
 
 class MainActivity : ComponentActivity() {
+    private val REQUEST_CODE = 1
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -33,14 +38,22 @@ class MainActivity : ComponentActivity() {
                                     context.startActivity(intent)
                                 }
                                 findViewById<Button>(R.id.button2).setOnClickListener {
-                                    Toast.makeText(context, "Botón 2 presionado", Toast.LENGTH_SHORT).show()
+                                    val intent = Intent(context, ActividadContrasena::class.java)
+                                    startActivityForResult(intent, REQUEST_CODE)
                                 }
-                                findViewById<Button>(R.id.button3).setOnClickListener {
-                                    Toast.makeText(context, "Botón 3 presionado", Toast.LENGTH_SHORT).show()
+                                findViewById<ImageButton>(R.id.buttonExit).setOnClickListener {
+                                    AlertDialog.Builder(context).apply {
+                                        setTitle("Confirmación")
+                                        setMessage("¿Estás seguro de que quieres salir?")
+                                        setPositiveButton("Sí") { _, _ ->
+                                            finishAffinity() // Cierra la aplicación
+                                        }
+                                        setNegativeButton("No", null)
+                                        create()
+                                        show()
+                                    }
                                 }
-                                findViewById<Button>(R.id.button4).setOnClickListener {
-                                    Toast.makeText(context, "Botón 4 presionado", Toast.LENGTH_SHORT).show()
-                                }
+
                                 val indicadorVidas = findViewById<TextView>(R.id.indicadorVidas)
                                 indicadorVidas.text = LivesManager.lives.toString()
                                 lifecycle.addObserver(LivesObserver(indicadorVidas))
@@ -51,6 +64,14 @@ class MainActivity : ComponentActivity() {
                     )
                 }
             }
+        }
+    }
+
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+        if (requestCode == REQUEST_CODE && resultCode == Activity.RESULT_OK) {
+            val puntos = data?.getIntExtra("puntos", 0) ?: 0
+            findViewById<TextView>(R.id.puntosescudo).text = puntos.toString()
         }
     }
 }

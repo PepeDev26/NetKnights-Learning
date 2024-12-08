@@ -1,0 +1,135 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/android_com"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToOutline="true"
+    android:background="#2A3151">
+
+    <TextView
+        android:id="@+id/puntos"
+        android:layout_width="62dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="203dp"
+        android:layout_marginTop="35dp"
+        android:gravity="top"
+        android:textSize="29dp"
+        android:text="0"
+        android:textAppearance="@style/puntoescudo" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="34dp"
+        android:src="@drawable/escudopunto" />
+
+    <TextView
+        android:id="@+id/crear_contr"
+        android:layout_width="304.24dp"
+        android:layout_height="231.59dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="79dp"
+        android:layout_marginTop="155dp"
+        android:elevation="10dp"
+        android:fontFamily="@font/blogger_medium"
+        android:gravity="top"
+        android:text="Crear contraseñas seguras es esencial para proteger tu información en línea. Usa combinaciones de letras mayúsculas, minúsculas, números y símbolos para mayor complejidad. Evita palabras comunes, datos personales o secuencias predecibles. Una buena longitud es de al menos 12 caracteres."
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="325dp"
+        android:layout_height="254dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="133dp"
+        android:src="@drawable/nube" />
+
+    <ImageView
+        android:id="@+id/default_a_k"
+        android:layout_width="82dp"
+        android:layout_height="49dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="142dp"
+        android:src="@drawable/sirsudoavatar" />
+
+    <ImageView
+        android:id="@+id/default_a_k2"
+        android:layout_width="82dp"
+        android:layout_height="49dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="434dp"
+        app:srcCompat="@drawable/sirsudoavatar" />
+
+    <ImageView
+        android:layout_width="325dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="407dp"
+        android:src="@drawable/nube2" />
+
+    <TextView
+        android:id="@+id/prueba_a_cr"
+        android:layout_width="304dp"
+        android:layout_height="34dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="441dp"
+        android:elevation="10dp"
+        android:fontFamily="@font/blogger_medium"
+        android:gravity="top"
+        android:text="¡Prueba a crear una y te recompensare!"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="329dp"
+        android:layout_height="64dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="607dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Contraseña"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/blogger_medium" />
+
+    <Button
+        android:id="@+id/botonEvaluar"
+        android:layout_width="342dp"
+        android:layout_height="64dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="737dp"
+        android:background="@drawable/boton_rectangular"
+        android:elevation="4dp"
+        android:fontFamily="@font/blogger_medium"
+        android:text="Evaluar"
+        android:textColor="#ffffff"
+        android:textSize="25dp"/>
+
+    <ImageView
+        android:id="@+id/botonVolver"
+        android:layout_width="51dp"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="27dp"
+        android:src="@drawable/atras" />
+
+</RelativeLayout>

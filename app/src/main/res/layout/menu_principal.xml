@@ -138,29 +138,14 @@
         android:shadowDy="30"
         android:shadowRadius="4" />
 
-    <Button
-        android:id="@+id/button3"
+    <ImageButton
+        android:id="@+id/buttonExit"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="239dp"
-        android:layout_marginTop="500dp"
-        android:background="@drawable/bola"
-        android:elevation="4dp"
-        android:shadowColor="#000000"
-        android:shadowDx="0"
-        android:shadowDy="30"
-        android:shadowRadius="4" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="78dp"
-        android:layout_marginTop="507dp"
+        android:layout_marginLeft="156dp"
+        android:layout_marginTop="477dp"
         android:background="@drawable/bola"
         android:elevation="4dp"
         android:shadowColor="#000000"
@@ -173,8 +158,18 @@
         android:layout_height="51dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="103dp"
-        android:layout_marginTop="535dp"
+        android:layout_marginLeft="181dp"
+        android:layout_marginTop="505dp"
+        android:background="@drawable/baseline_exit_to_app_24"
+        android:elevation="15dp" />
+
+    <RelativeLayout
+        android:layout_width="51dp"
+        android:layout_height="51dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="264dp"
+        android:layout_marginTop="378dp"
         android:background="@drawable/espada"
         android:elevation="15dp" />
 
@@ -212,19 +207,6 @@
     <!-- Auto layout, variables, and unit scale are not yet supported -->
 
     <RelativeLayout
-        android:id="@+id/book_open_d"
-        android:layout_width="51dp"
-        android:layout_height="51dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="264dp"
-        android:layout_marginTop="371dp"
-        android:background="@drawable/libro"
-        android:elevation="15dp"
-
-        />
-
-    <RelativeLayout
         android:layout_width="51dp"
         android:layout_height="51dp"
         android:layout_alignParentLeft="true"
@@ -233,17 +215,6 @@
         android:layout_marginTop="375dp"
         android:background="@drawable/baseline_star_24"
         android:elevation="15dp" />
-
-    <RelativeLayout
-        android:layout_width="51dp"
-        android:layout_height="51dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="264dp"
-        android:layout_marginTop="528dp"
-        android:background="@drawable/pesas"
-        android:elevation="15dp"
-        />
 
 
     <TextView
