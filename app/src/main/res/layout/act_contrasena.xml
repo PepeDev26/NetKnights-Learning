@@ -37,15 +37,15 @@
         android:layout_marginLeft="79dp"
         android:layout_marginTop="155dp"
         android:elevation="10dp"
-        android:fontFamily="@font/blogger_medium"
+        android:fontFamily="@font/blogger"
         android:gravity="top"
         android:text="Crear contraseñas seguras es esencial para proteger tu información en línea. Usa combinaciones de letras mayúsculas, minúsculas, números y símbolos para mayor complejidad. Evita palabras comunes, datos personales o secuencias predecibles. Una buena longitud es de al menos 12 caracteres."
         android:textColor="#FFFFFF"
-        android:textSize="20sp" />
+        android:textSize="18sp" />
 
     <ImageView
-        android:layout_width="325dp"
-        android:layout_height="254dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="65dp"
         android:layout_marginTop="133dp"
@@ -57,8 +57,8 @@
         android:layout_height="49dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="0dp"
-        android:layout_marginTop="142dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="94dp"
         android:src="@drawable/sirsudoavatar" />
 
     <ImageView
@@ -67,9 +67,9 @@
         android:layout_height="49dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="0dp"
-        android:layout_marginTop="434dp"
-        app:srcCompat="@drawable/sirsudoavatar" />
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="376dp"
+        app:srcCompat="@drawable/sirsudoavatar2" />
 
     <ImageView
         android:layout_width="325dp"
@@ -85,14 +85,29 @@
         android:layout_height="34dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="72dp"
-        android:layout_marginTop="441dp"
+        android:layout_marginLeft="84dp"
+        android:layout_marginTop="342dp"
         android:elevation="10dp"
-        android:fontFamily="@font/blogger_medium"
+        android:fontFamily="@font/blogger"
         android:gravity="top"
         android:text="¡Prueba a crear una y te recompensare!"
         android:textColor="#FFFFFF"
         android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/prueba_a_cr2"
+        android:layout_width="304dp"
+        android:layout_height="34dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="82dp"
+        android:layout_marginTop="444dp"
+        android:elevation="10dp"
+        android:fontFamily="@font/blogger"
+        android:gravity="top"
+        android:text="NOTA: No guardo ni almaceno tus contraseñas, así que no te preocupes por tu privacidad."
+        android:textColor="#FFFFFF"
+        android:textSize="14sp" />
 
     <EditText
         android:id="@+id/editTextText2"

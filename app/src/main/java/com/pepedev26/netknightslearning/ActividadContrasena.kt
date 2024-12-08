@@ -43,7 +43,7 @@ class ActividadContrasena : ComponentActivity() {
 
         if (contrasena == "123456") puntuacion = 0
         if (contrasena == "contraseñä") puntuacion = 0
-        if (contrasena == "llevalatararaunvestidoblancollenodecascabeles") puntuacion += 28 //Easter egg hacia la antigua contraseña del andared
+        if (contrasena == "llevalatararaunvestidoblancollenodecascabeles") puntuacion += 24 //Easter egg hacia la antigua contraseña del andared
         if (contrasena.length >= 12) puntuacion += 2
         if (contrasena.any { it.isUpperCase() }) puntuacion += 2
         if (contrasena.any { it.isLowerCase() }) puntuacion += 2
